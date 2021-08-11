@@ -1,4 +1,4 @@
-# valtio-esm-build-error
+# valtio-esm-build-error
 
 1. Install dependencies
 2. Run `pnpm dev` `yarn dev` or `npm run dev`
