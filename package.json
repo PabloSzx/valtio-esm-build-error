@@ -1,0 +1,34 @@
+{
+  "name": "valtio-esm-build-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "next start",
+    "dev": "concurrently -r \"next dev\" \"wait-on http://localhost:3000 && open-cli http://localhost:3000\"",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloSzx/valtio-esm-build-error.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloSzx/valtio-esm-build-error/issues"
+  },
+  "homepage": "https://github.com/PabloSzx/valtio-esm-build-error#readme",
+  "dependencies": {
+    "@types/node": "^16.4.14",
+    "@types/react": "^17.0.17",
+    "concurrently": "^6.2.1",
+    "next": "^11.1.0",
+    "open-cli": "^7.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.3.5",
+    "valtio": "^1.2.0",
+    "wait-on": "^6.0.0"
+  }
+}
